@@ -1,4 +1,4 @@
-
+##
 #./gradlew -q installDebug installDebugAndroidTest
 
 adb uninstall com.skysoft.kkbox.android
