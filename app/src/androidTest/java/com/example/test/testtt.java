@@ -26,10 +26,11 @@ public class testtt {
 
     @Test
     public void Search_top_result() throws UiObjectNotFoundException {
-        kkPage.Hompage().Open_Search_Page().Enter_search_text("fade").check_top_result("Fade");
+        //kkPage.Hompage().Open_Search_Page().Enter_search_text("fade").check_top_result("Fade");
         //kkPage.Open_Search_page().Enter_search_text("周杰倫").check_Artist_name("周杰倫 (Jay Chou)");
-        //kkPage.Search_page().Enter_search_text("darkside").check_Artist_name("Darkside");
+        kkPage.Search_page().Enter_search_text("darkside").check_Artist_name("Darkside");
     }
+    /*
     @Test
     public void Open_today_Song()throws UiObjectNotFoundException{
         //kkPage.Hompage().Open_Today_Song("R&B歷年冠軍神曲1990-1999");
@@ -154,5 +155,5 @@ public class testtt {
                 .is(Online_Song_Page.class).check_songlist_num()
                 .is(Online_Song_Page.class).check_delet_song();
     }
-
+*/
 }
